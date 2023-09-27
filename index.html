@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/icons/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/sub-layout.css">
+  <link rel="stylesheet" href="./css/greet.css">
+  <link rel="stylesheet" href="./css/biz-intro.css">
+  <link rel="stylesheet" href="./css/board.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/faq.css">
+  <link rel="stylesheet" href="./css/location.css">
+  <link rel="stylesheet" href="./css/video.css">
+  <link rel="stylesheet" href="./css/biz-area.css">
+  <link rel="stylesheet" href="./css/gallery1.css">
+  <link rel="stylesheet" href="./css/gallery2.css">
+  <link rel="stylesheet" href="./css/gallery3.css">
+  <link rel="stylesheet" href="./css/gallery4.css">
+  <link rel="stylesheet" href="./css/gallery5.css">
+  <link rel="stylesheet" href="./css/viewbox.css">
+  <link rel="stylesheet" href="./css/isotope.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/preloader.css">
+  <script src="https://kit.fontawesome.com/88523d57a3.js" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="./js/hoverBox.js"></script>
+  <script src="./js/jquery.viewbox.js"></script> <!-- 제이쿼리 아래에 호출 -->
+  <script src="./js/masonry-docs.min.js"></script>
+  <script src="./js/jquery.isotope.js"></script>
+  <script src="./js/common.js"></script>
+  <!-- <script src="./js/header.js"></script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="./js/preloader.js"></script>
+<div class="preloader">
+<div class="loader">Loading...</div>
+</div>  <script src="./js/header.js"></script>
+<script src="./js/nav.js"></script> <!-- 전체페이지에서 호출 -->
+  <header>
+    <div class="top">
+      <nav class="member">
+        <a href="./index.php">처음으로</a>
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+      </nav>
+    </div><!-- tpo -->
+
+    <div class="center">
+      <h1>
+        <a href="./index.php">
+        <img src="./img/icons/logo.png" alt="">
+        </a>
+      <span class="hidden">선샤인</span>
+      </h1>
+
+      <nav class="gnb lg">
+        <ul><!-- depth -->
+  <li class="menu1">
+    <a href="./greet.php">
+      <span>회사소개</span>
+      <span class="en">company</span>
+    </a>
+    <h6>회사소개</h6>
+    <ul>
+      <li><a class="menu1-1" href="./greet.php">인사말</a></li> <!-- 현재주소에 그리트.php가 있따면 -->
+      <li><a class="menu1-2" href="./location.php">오시는 길</a></li>
+      <li><a class="menu1-3" href="./video.php">홍보영상</a></li>
+    </ul>
+  </li><!-- 1 -->
+  <li class="menu2">
+    <a href="./biz-intro.php">
+      <span>사업분야</span>
+      <span class="en">business</span>
+<!--  -->
+    </a>
+    <h6>사업분야</h6>
+    <ul>
+      <li><a class="menu2-1" href="./biz-intro.php">사업소개</a></li>
+      <li><a class="menu2-2" href="./biz-area.php">사업분야</a></li>
+    </ul>
+  </li><!-- 2 -->
+  <li class="menu3">
+    <a href="./gallery1.php">
+      <span>갤러리</span>
+      <span class="en">gallery</span>
+    </a>
+    <h6>갤러리</h6>
+    <ul>
+      <li><a class="menu3-1" href="./gallery1.php">float</a></li>
+      <li><a class="menu3-2" href="./gallery2.php">flex</a></li>
+      <li><a class="menu3-3" href="./gallery3.php">grid</a></li>
+      <li><a class="menu3-4" href="./gallery4.php">masonry</a></li>
+      <li><a class="menu3-5" href="./gallery5.php">masonryisotope</a></li>
+
+    </ul>
+  </li><!-- 3 -->
+  <li class="menu4">
+    <a href="./contact.php">
+      <span>온라인문의</span>
+      <span class="en">online</span>
+    </a>
+    <h6>온라인문의</h6>
+    <ul>
+      <li><a class="menu4-1" href="./contact.php">온라인문의</a></li>
+
+    </ul>
+  </li><!-- 4 -->
+  <li class="menu5">
+    <a href="./notice.php">
+      <span>커뮤니티</span>
+      <span class="en">comunity</span>
+    </a>
+    <h6>커뮤니티</h6>
+    <ul>
+      <li><a class="menu5-1" href="./notice.php">공지사항</a></li>
+      <li><a class="menu5-2" href="./faq.php">FNQ</a></li>
+      <li><a class="menu5-3" href="./freeboard.php">자유게시판</a></li>
+    </ul>
+  </li><!-- 5 -->
+  <li class="member menu6">
+    <a href="./login.php">
+      <span>회원</span>
+      <span class="en">member</span>
+    </a>
+    <h6>회원</h6>
+    <ul>
+      <li><a class="menu6-1" href="./login.php">로그인</a></li>
+      <li><a class="menu6-2" href="./register.php">회원가입</a></li>
+      <li><a class="menu6-3" href="./member.php">회원정보수정</a></li>
+    </ul>
+  </li><!-- 6 -->
+  <li class="sns">
+    <a href="./notice.php">
+      <span>소셜</span>
+      <span class="en">SNS</span>
+    </a>
+    <h6>SNS</h6>
+    <ul>
+      <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </li><!-- 6 -->
+</ul><!-- menu -->
+
+<!-- 모든 구조는 똑같이, 구조는 똑같고 반복 -->      </nav>
+
+      <nav class="gnb sm">
+      <ul><!-- depth -->
+  <li class="menu1">
+    <a href="./greet.php">
+      <span>회사소개</span>
+      <span class="en">company</span>
+    </a>
+    <h6>회사소개</h6>
+    <ul>
+      <li><a class="menu1-1" href="./greet.php">인사말</a></li> <!-- 현재주소에 그리트.php가 있따면 -->
+      <li><a class="menu1-2" href="./location.php">오시는 길</a></li>
+      <li><a class="menu1-3" href="./video.php">홍보영상</a></li>
+    </ul>
+  </li><!-- 1 -->
+  <li class="menu2">
+    <a href="./biz-intro.php">
+      <span>사업분야</span>
+      <span class="en">business</span>
+<!--  -->
+    </a>
+    <h6>사업분야</h6>
+    <ul>
+      <li><a class="menu2-1" href="./biz-intro.php">사업소개</a></li>
+      <li><a class="menu2-2" href="./biz-area.php">사업분야</a></li>
+    </ul>
+  </li><!-- 2 -->
+  <li class="menu3">
+    <a href="./gallery1.php">
+      <span>갤러리</span>
+      <span class="en">gallery</span>
+    </a>
+    <h6>갤러리</h6>
+    <ul>
+      <li><a class="menu3-1" href="./gallery1.php">float</a></li>
+      <li><a class="menu3-2" href="./gallery2.php">flex</a></li>
+      <li><a class="menu3-3" href="./gallery3.php">grid</a></li>
+      <li><a class="menu3-4" href="./gallery4.php">masonry</a></li>
+      <li><a class="menu3-5" href="./gallery5.php">masonryisotope</a></li>
+
+    </ul>
+  </li><!-- 3 -->
+  <li class="menu4">
+    <a href="./contact.php">
+      <span>온라인문의</span>
+      <span class="en">online</span>
+    </a>
+    <h6>온라인문의</h6>
+    <ul>
+      <li><a class="menu4-1" href="./contact.php">온라인문의</a></li>
+
+    </ul>
+  </li><!-- 4 -->
+  <li class="menu5">
+    <a href="./notice.php">
+      <span>커뮤니티</span>
+      <span class="en">comunity</span>
+    </a>
+    <h6>커뮤니티</h6>
+    <ul>
+      <li><a class="menu5-1" href="./notice.php">공지사항</a></li>
+      <li><a class="menu5-2" href="./faq.php">FNQ</a></li>
+      <li><a class="menu5-3" href="./freeboard.php">자유게시판</a></li>
+    </ul>
+  </li><!-- 5 -->
+  <li class="member menu6">
+    <a href="./login.php">
+      <span>회원</span>
+      <span class="en">member</span>
+    </a>
+    <h6>회원</h6>
+    <ul>
+      <li><a class="menu6-1" href="./login.php">로그인</a></li>
+      <li><a class="menu6-2" href="./register.php">회원가입</a></li>
+      <li><a class="menu6-3" href="./member.php">회원정보수정</a></li>
+    </ul>
+  </li><!-- 6 -->
+  <li class="sns">
+    <a href="./notice.php">
+      <span>소셜</span>
+      <span class="en">SNS</span>
+    </a>
+    <h6>SNS</h6>
+    <ul>
+      <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </li><!-- 6 -->
+</ul><!-- menu -->
+
+<!-- 모든 구조는 똑같이, 구조는 똑같고 반복 -->      </nav>
+
+      <button class="mbtn">
+      <i class="fa-solid fa-bars open"></i>
+      <i class="fa-solid fa-xmark close"></i>
+      </button>
+
+    </div><!-- center -->
+  </header><!-- 일반적으로 웹사이트에 하나 밖에 없음 -->
+
+  <!--  --><script src="./store/store.js"></script>
+<script src="./js/home.js"></script>
+<section class="home_visual">
+  <!-- particles.js container -->
+  <script src="js/particles.js"></script>
+  <script src="js/app_particle_star.js"></script>
+  <div id="particles-js"></div>
+  <!-- particles.js container -->
+</section>
+<script>
+  homevisualArr.forEach(function(v){
+    $(`.home_visual`).append(`
+    <figure>
+      <img src=${v.path} alt="">
+      <figcaption>
+        <h5>${v.title}</h5>
+        <p>${v.desc}</p>
+     </figcaption>
+    </figure> 
+    `)
+  })
+</script>
+<section class="feature">
+  <ul></ul>
+    <script>
+      featureArr.forEach(function(v){
+        $(`.feature ul`).append(`
+          <li>
+            <a href="${v.link}">
+              <figure>
+                <img src="${v.path}" alt="">
+                <figcaption>
+                  <h3>${v.title}</h3>
+                  <p>${v.desc}</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+        `)
+      })
+    </script>
+</section>
+<section class="latest">
+  <h2 class="hidden">recently</h2>
+  <article class="news">
+      <div class="center">
+        <h3><i class="fa-regular fa-newspaper"></i>LATEST NEWS</h3>
+        <div class="rolling">
+          <ul>
+            <li>News 게시판 최시글 1번</li>
+            <li>News 게시판 최시글 2번</li>
+            <li>News 게시판 최시글 3번</li>
+            <li>News 게시판 최시글 4번</li>
+          </ul>
+        </div><!-- rolling -->
+        <script>
+          $(`.rolling ul`).clone().appendTo('.rolling')/* 그냥 어펜드는 에펜드 안 쪽에 ul을 넣겠다 ()*/
+          /* 
+          let ulCopy = document.querySelector(`.rolling ul`).cloneNode(true)
+          document.querySelecto(`.rolling`).append(ulCopy)
+          */
+        </script>
+      </div><!-- center -->
+  </article>
+  <div class="bottom">
+    <article class="notice">
+      <h3>notice</h3>
+      <ul>
+        
+      </ul>
+      <script>
+        noticeArr.forEach(function(v){
+          $(`.notice ul`).append(`
+          <li>
+            <a href="#">${v.desc}</a>
+            <time>${v.date}</time>
+          </li>
+          `)
+
+        })
+      </script>
+
+      <a class="more" href="./notice.php">more+</a>
+    </article>
+    <article class="customer">
+      <h3>customer</h3>
+      <p>문의 전화 주시면 친절 응대 쌉가능</p>
+      <a class="tel" href="tel:0100000000">
+        <i class="fa-solid fa-phone"></i></i>010-0000-0000</a>
+      <a class="mail" href="./contact.php">
+      <i class="fa-solid fa-envelope"></i>contact us</a>
+    </article>
+    <article class="gallery">
+      <h3>gallery</h3>
+      <ul></ul>
+      <script>
+        for(var i=1; i<=4; i++){
+          $(`.gallery ul`).append(`
+            <li>
+              <a href="#">
+                <img src="./img/sub3/${i}.jpg" alt>
+              </a>
+            </li>
+          `)
+        }
+      </script>
+
+      <a class="more" href="./gallery1.php">more+</a>
+    </article>
+    
+
+  </div>
+
+</section>
+<footer>
+  <nav class="sitemap">
+    <ul><!-- depth -->
+  <li class="menu1">
+    <a href="./greet.php">
+      <span>회사소개</span>
+      <span class="en">company</span>
+    </a>
+    <h6>회사소개</h6>
+    <ul>
+      <li><a class="menu1-1" href="./greet.php">인사말</a></li> <!-- 현재주소에 그리트.php가 있따면 -->
+      <li><a class="menu1-2" href="./location.php">오시는 길</a></li>
+      <li><a class="menu1-3" href="./video.php">홍보영상</a></li>
+    </ul>
+  </li><!-- 1 -->
+  <li class="menu2">
+    <a href="./biz-intro.php">
+      <span>사업분야</span>
+      <span class="en">business</span>
+<!--  -->
+    </a>
+    <h6>사업분야</h6>
+    <ul>
+      <li><a class="menu2-1" href="./biz-intro.php">사업소개</a></li>
+      <li><a class="menu2-2" href="./biz-area.php">사업분야</a></li>
+    </ul>
+  </li><!-- 2 -->
+  <li class="menu3">
+    <a href="./gallery1.php">
+      <span>갤러리</span>
+      <span class="en">gallery</span>
+    </a>
+    <h6>갤러리</h6>
+    <ul>
+      <li><a class="menu3-1" href="./gallery1.php">float</a></li>
+      <li><a class="menu3-2" href="./gallery2.php">flex</a></li>
+      <li><a class="menu3-3" href="./gallery3.php">grid</a></li>
+      <li><a class="menu3-4" href="./gallery4.php">masonry</a></li>
+      <li><a class="menu3-5" href="./gallery5.php">masonryisotope</a></li>
+
+    </ul>
+  </li><!-- 3 -->
+  <li class="menu4">
+    <a href="./contact.php">
+      <span>온라인문의</span>
+      <span class="en">online</span>
+    </a>
+    <h6>온라인문의</h6>
+    <ul>
+      <li><a class="menu4-1" href="./contact.php">온라인문의</a></li>
+
+    </ul>
+  </li><!-- 4 -->
+  <li class="menu5">
+    <a href="./notice.php">
+      <span>커뮤니티</span>
+      <span class="en">comunity</span>
+    </a>
+    <h6>커뮤니티</h6>
+    <ul>
+      <li><a class="menu5-1" href="./notice.php">공지사항</a></li>
+      <li><a class="menu5-2" href="./faq.php">FNQ</a></li>
+      <li><a class="menu5-3" href="./freeboard.php">자유게시판</a></li>
+    </ul>
+  </li><!-- 5 -->
+  <li class="member menu6">
+    <a href="./login.php">
+      <span>회원</span>
+      <span class="en">member</span>
+    </a>
+    <h6>회원</h6>
+    <ul>
+      <li><a class="menu6-1" href="./login.php">로그인</a></li>
+      <li><a class="menu6-2" href="./register.php">회원가입</a></li>
+      <li><a class="menu6-3" href="./member.php">회원정보수정</a></li>
+    </ul>
+  </li><!-- 6 -->
+  <li class="sns">
+    <a href="./notice.php">
+      <span>소셜</span>
+      <span class="en">SNS</span>
+    </a>
+    <h6>SNS</h6>
+    <ul>
+      <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </li><!-- 6 -->
+</ul><!-- menu -->
+
+<!-- 모든 구조는 똑같이, 구조는 똑같고 반복 -->  </nav>
+  <div class="info">
+    <address>
+      <i>주소 : 부산광역시 해운대구 좌동 273-10 </i>
+      <i>상호 : 디자인선사인 </i>
+      <i>사업자등록번호 : 123-456-7890</i>
+      <i>Tel : 070-7155-1979 </i>
+      <i>Fax : 02-2139-1142</i>
+      <i>E-mail : gijung23@nate.com</i>
+    </address>
+    <p>
+      Copyright &copy; Sunsine.com All Rights Reserved.
+    </p>
+  </div>
+</footer>
+</body>
+
+</html>
